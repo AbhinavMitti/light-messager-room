@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>light messager</title>
+	<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="light_messager.js"></script>
+	<link rel="stylesheet" href="user.css">
+
+</head>
+
+<body>
+	<center>
+		<h1 class="header">
+			Light Messager <sup>
+				<img src="m2.png">
+			</sup>
+		</h1>
+		<div>
+
+			<div class="container" id="container">
+
+				<div class="form-container sign-in-container">
+					<form action="#">
+						<h1>Log in</h1>
+						<div class="social-container">
+							<h3>see whats happening in the world</h3>
+						</div>
+						<span>User Name : </span>
+						<input class="form-control" id="user_name" type="text" placeholder="User name" />
+
+						<button type="button" id="login_button" onclick="addUser()"
+							class="custom-btn btn-12"><span>Click!</span><span>Log in</span></button>
+					</form>
+				</div>
+				<div class="overlay-container">
+					<div class="overlay">
+
+						<div class="overlay-panel overlay-right">
+							<h1>Hello, Friend!</h1>
+							<p>Enter your favorite name and join or create a room and chat with your friends</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</center>
+
+</body>
+
+</html>
